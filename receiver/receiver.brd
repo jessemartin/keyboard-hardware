@@ -260,6 +260,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="yc164">
+<packages>
+<package name="YC164">
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.2" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.4" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$3" x="0.4" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$4" x="1.2" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.2" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.4" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$7" x="0.4" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$8" x="1.2" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<text x="-8.8" y="0.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.2" y="-1.2" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -452,6 +472,7 @@ design rules under a new name.</description>
 <element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN_PRO_MICRO" x="16.51" y="31.75"/>
 <element name="U$1" library="cree_plcc4_rgb_led" package="4-PLCC" value="" x="45.72" y="25.4"/>
 <element name="Q1" library="adafruit" package="SOT23" value="3.3" x="49.53" y="53.34" rot="R180"/>
+<element name="E$1" library="yc164" package="YC164" value="" x="46.99" y="41.91"/>
 </elements>
 <signals>
 <signal name="GND">

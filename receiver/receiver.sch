@@ -554,6 +554,68 @@ CLVBA-FKA</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="yc164">
+<packages>
+<package name="YC164">
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.2" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.4" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$3" x="0.4" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$4" x="1.2" y="0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.2" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.4" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$7" x="0.4" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$8" x="1.2" y="-0.8" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<text x="-8.8" y="0.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.2" y="-1.2" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="YC164">
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="10.16" length="middle" rot="R90"/>
+<pin name="P$2" x="-2.54" y="10.16" length="middle" rot="R90"/>
+<pin name="P$3" x="2.54" y="10.16" length="middle" rot="R90"/>
+<pin name="P$4" x="7.62" y="10.16" length="middle" rot="R90"/>
+<pin name="P$5" x="-7.62" y="-10.16" length="middle" rot="R270"/>
+<pin name="P$6" x="-2.54" y="-10.16" length="middle" rot="R270"/>
+<pin name="P$7" x="2.54" y="-10.16" length="middle" rot="R270"/>
+<pin name="P$8" x="7.62" y="-10.16" length="middle" rot="R270"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="YC164">
+<gates>
+<gate name="G$1" symbol="YC164" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="YC164">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -573,6 +635,7 @@ CLVBA-FKA</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="cree_plcc4_rgb_led" deviceset="CREE_PLCC4_RGB_LED" device=""/>
+<part name="E$1" library="yc164" deviceset="YC164" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -588,6 +651,7 @@ CLVBA-FKA</description>
 <instance part="P+1" gate="VCC" x="106.68" y="121.92" rot="R270"/>
 <instance part="GND5" gate="1" x="88.9" y="96.52"/>
 <instance part="U$1" gate="G$1" x="76.2" y="66.04"/>
+<instance part="E$1" gate="G$1" x="30.48" y="55.88"/>
 </instances>
 <busses>
 </busses>
