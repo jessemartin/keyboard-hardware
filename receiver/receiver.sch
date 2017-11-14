@@ -614,6 +614,46 @@ CLVBA-FKA</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="prog_header">
+<packages>
+<package name="PROG_HEADER">
+<pad name="VCC" x="0" y="0" drill="1" shape="square" stop="no"/>
+<pad name="GND" x="0" y="-2.54" drill="1" stop="no"/>
+<pad name="SWDIO" x="0" y="-5.08" drill="1" stop="no"/>
+<pad name="SWCLK" x="0" y="-7.62" drill="1" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PROG_HEADER">
+<pin name="VCC" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="SWDIO" x="0" y="-5.08" length="middle"/>
+<pin name="SWCLK" x="0" y="-7.62" length="middle"/>
+<text x="-5.08" y="-7.62" size="1.27" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PROG_HEADER">
+<gates>
+<gate name="G$1" symbol="PROG_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PROG_HEADER">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -644,17 +684,19 @@ CLVBA-FKA</description>
 <part name="P2" library="promicro_header" deviceset="PROMICRO_HEADER" device=""/>
 <part name="P1" library="promicro_header" deviceset="PROMICRO_HEADER" device=""/>
 <part name="U2" library="az1117ih" deviceset="AZ1117IH" device=""/>
+<part name="U$1" library="prog_header" deviceset="PROG_HEADER" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="GND1" gate="1" x="124.46" y="104.14"/>
+<instance part="GND1" gate="1" x="147.32" y="101.6"/>
 <instance part="GND2" gate="1" x="68.58" y="116.84" rot="R90"/>
 <instance part="GND3" gate="1" x="-20.32" y="76.2"/>
 <instance part="GND4" gate="1" x="30.48" y="109.22" rot="R90"/>
-<instance part="P+1" gate="VCC" x="96.52" y="111.76" rot="R90"/>
+<instance part="P+1" gate="VCC" x="119.38" y="109.22" rot="R90"/>
 <instance part="D1" gate="G$1" x="119.38" y="27.94"/>
 <instance part="RA2" gate="G$1" x="71.12" y="-2.54"/>
 <instance part="U1" gate="G$1" x="30.48" y="45.72"/>
@@ -668,7 +710,9 @@ CLVBA-FKA</description>
 <instance part="B2" gate="G$1" x="-22.86" y="91.44"/>
 <instance part="P2" gate="G$1" x="53.34" y="109.22"/>
 <instance part="P1" gate="G$1" x="10.16" y="109.22"/>
-<instance part="U2" gate="G$1" x="116.84" y="111.76"/>
+<instance part="U2" gate="G$1" x="139.7" y="109.22"/>
+<instance part="U$1" gate="G$1" x="86.36" y="121.92"/>
+<instance part="GND5" gate="1" x="114.3" y="119.38" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -718,8 +762,13 @@ CLVBA-FKA</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="ADJ/GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="124.46" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="109.22" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="86.36" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -732,10 +781,15 @@ CLVBA-FKA</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="114.3" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUTPUT"/>
-<wire x1="119.38" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<junction x="99.06" y="111.76"/>
+<wire x1="142.24" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<junction x="121.92" y="109.22"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="86.36" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="104.14" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED-G" class="0">
@@ -897,9 +951,9 @@ CLVBA-FKA</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="INPUT"/>
-<wire x1="119.38" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="114.3" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<label x="124.46" y="116.84" size="1.778" layer="95"/>
+<wire x1="142.24" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="111.76" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="147.32" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXI" class="0">
@@ -914,14 +968,24 @@ CLVBA-FKA</description>
 <label x="-17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="???" class="0">
+<net name="SWCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SWCLK"/>
 <wire x1="50.8" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <label x="68.58" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWCLK"/>
+<wire x1="86.36" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
+<label x="104.14" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="????" class="0">
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWDIO"/>
+<wire x1="86.36" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
+<label x="104.14" y="116.84" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SWDIO"/>
 <wire x1="50.8" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
