@@ -20,3 +20,9 @@ In progress...
 Folder Structure
 ----------------
 `lib` contains device libraries that are used by the `receiver` and `keyboard` projects.
+
+PCB Fab Specifications
+----------------------
+* FR4 fiberglass
+* 2 layer
+* 1.6mm thickness
