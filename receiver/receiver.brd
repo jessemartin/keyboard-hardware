@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -521,11 +521,19 @@ design rules under a new name.</description>
 <vertex x="86.36" y="43.18"/>
 <vertex x="40.64" y="43.18"/>
 </polygon>
-<wire x1="63.636" y1="49.934" x2="69.2912" y2="50.8508" width="0" layer="19" extent="1-1"/>
-<wire x1="50.317" y1="47.757" x2="52.68" y2="51.557" width="0" layer="19" extent="1-1"/>
-<wire x1="48.222" y1="55.429" x2="52.68" y2="51.557" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="61" x2="48.222" y2="55.429" width="0" layer="19" extent="1-1"/>
-<wire x1="63.636" y1="60.934" x2="59.244" y2="53.443" width="0" layer="19" extent="1-1"/>
+<via x="48.7" y="62.5" extent="1-16" drill="0.35"/>
+<via x="65.2" y="59.7" extent="1-16" drill="0.35"/>
+<via x="62.2" y="50.3" extent="1-16" drill="0.35"/>
+<via x="60.6" y="45.7" extent="1-16" drill="0.35"/>
+<via x="52.7" y="53" extent="1-16" drill="0.35"/>
+<via x="46.9" y="52.8" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="16">
+<vertex x="40.6" y="66"/>
+<vertex x="40.6" y="43.1"/>
+<vertex x="86.3" y="43.1"/>
+<vertex x="86.3" y="66.1"/>
+<vertex x="40.7" y="66.1"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="VCC"/>
@@ -605,9 +613,9 @@ design rules under a new name.</description>
 <contactref element="D1" pad="P$4"/>
 <wire x1="47.498" y1="58.1152" x2="48.0568" y2="58.1152" width="0.3048" layer="1"/>
 <wire x1="47.2186" y1="58.3946" x2="47.498" y2="58.1152" width="0.3048" layer="1"/>
-<wire x1="46.6598" y1="57.8358" x2="47.2186" y2="58.3946" width="0.3048" layer="1"/>
-<wire x1="46.6598" y1="56.9976" x2="46.6598" y2="57.8358" width="0.3048" layer="1"/>
-<wire x1="46.101" y1="56.4388" x2="46.6598" y2="56.9976" width="0.3048" layer="1"/>
+<wire x1="46.3598" y1="57.5358" x2="47.2186" y2="58.3946" width="0.3048" layer="1"/>
+<wire x1="46.3598" y1="56.6976" x2="46.3598" y2="57.5358" width="0.3048" layer="1"/>
+<wire x1="46.101" y1="56.4388" x2="46.3598" y2="56.6976" width="0.3048" layer="1"/>
 <wire x1="45.5422" y1="56.4388" x2="46.101" y2="56.4388" width="0.3048" layer="1"/>
 <wire x1="45.2628" y1="56.1594" x2="45.5422" y2="56.4388" width="0.3048" layer="1"/>
 <wire x1="45.2628" y1="55.0418" x2="45.2628" y2="56.1594" width="0.3048" layer="1"/>
