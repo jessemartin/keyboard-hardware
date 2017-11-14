@@ -1,5 +1,5 @@
-Wireless Keyboard Eagle Project
-===============================
+Wireless Keyboard Project: Hardware
+===================================
 
 These are [Eagle](https://www.autodesk.com/products/eagle/overview) design files for PCBs used in my wireless keyboard project.
 
