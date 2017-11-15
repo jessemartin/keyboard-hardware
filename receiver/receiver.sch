@@ -199,10 +199,10 @@
 <library name="cree_plcc4_rgb_led">
 <packages>
 <package name="4-PLCC">
-<smd name="P$4" x="1.5" y="0.8" dx="1.4" dy="1.1" layer="1"/>
-<smd name="P$3" x="1.5" y="-0.8" dx="1.4" dy="1.1" layer="1"/>
-<smd name="P$1" x="-1.5" y="0.8" dx="1.4" dy="1.1" layer="1"/>
-<smd name="P$2" x="-1.5" y="-0.8" dx="1.4" dy="1.1" layer="1"/>
+<smd name="GREEN" x="1.5" y="0.8" dx="1.4" dy="1.1" layer="1"/>
+<smd name="BLUE" x="1.5" y="-0.8" dx="1.4" dy="1.1" layer="1"/>
+<smd name="RED" x="-1.5" y="0.8" dx="1.4" dy="1.1" layer="1"/>
+<smd name="ANODE" x="-1.5" y="-0.8" dx="1.4" dy="1.1" layer="1"/>
 <wire x1="-0.635" y1="1.35" x2="0.635" y2="1.35" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-1.35" x2="-0.635" y2="-1.35" width="0.127" layer="21"/>
 <text x="-2.2" y="1.9" size="1.27" layer="25">&gt;NAME</text>
@@ -236,10 +236,10 @@ CLVBA-FKA</description>
 <devices>
 <device name="" package="4-PLCC">
 <connects>
-<connect gate="G$1" pin="BLUE(CATHODE)" pad="P$3"/>
-<connect gate="G$1" pin="COMM(ANODE)" pad="P$2"/>
-<connect gate="G$1" pin="GREEN(CATHODE)" pad="P$4"/>
-<connect gate="G$1" pin="RED(CATHODE)" pad="P$1"/>
+<connect gate="G$1" pin="BLUE(CATHODE)" pad="BLUE"/>
+<connect gate="G$1" pin="COMM(ANODE)" pad="ANODE"/>
+<connect gate="G$1" pin="GREEN(CATHODE)" pad="GREEN"/>
+<connect gate="G$1" pin="RED(CATHODE)" pad="RED"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -664,7 +664,7 @@ CLVBA-FKA</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0.508">
+<class number="0" name="default" width="0.3048" drill="0.254">
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
@@ -700,7 +700,7 @@ CLVBA-FKA</description>
 <instance part="GND2" gate="1" x="68.58" y="116.84" rot="R90"/>
 <instance part="GND3" gate="1" x="-20.32" y="76.2"/>
 <instance part="GND4" gate="1" x="30.48" y="109.22" rot="R90"/>
-<instance part="P+1" gate="VCC" x="119.38" y="109.22" rot="R90"/>
+<instance part="P+1" gate="VCC" x="129.54" y="101.6" rot="R90"/>
 <instance part="D1" gate="G$1" x="119.38" y="27.94"/>
 <instance part="RA2" gate="G$1" x="71.12" y="-2.54"/>
 <instance part="U1" gate="G$1" x="30.48" y="45.72"/>
@@ -785,10 +785,10 @@ CLVBA-FKA</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="137.16" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUTPUT"/>
-<wire x1="142.24" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
-<junction x="121.92" y="109.22"/>
+<wire x1="142.24" y1="109.22" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
+<junction x="132.08" y="101.6"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
