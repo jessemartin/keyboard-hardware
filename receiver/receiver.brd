@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000003125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -149,8 +149,8 @@
 <wire x1="85.85" y1="65" x2="40.64" y2="65" width="0" layer="20"/>
 <wire x1="40.64" y1="65" x2="40.64" y2="41.85" width="0" layer="20"/>
 <text x="65.00313125" y="60.293578125" size="1.778" layer="25" font="vector">Jesse Martin</text>
-<text x="67.2652375" y="54.42850625" size="1.27" layer="25" font="vector">Kbd Receiver
-Version 1</text>
+<text x="72.20435" y="54.42850625" size="1.27" layer="25" font="vector" align="center">Kbd Receiver
+Rev 1</text>
 </plain>
 <libraries>
 <library name="yc164">
