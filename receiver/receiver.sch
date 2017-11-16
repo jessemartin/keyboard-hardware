@@ -473,10 +473,6 @@ CLVBA-FKA</description>
 <smd name="P$4" x="3.2" y="-1.9" dx="1.6" dy="1" layer="1"/>
 <text x="-3.8" y="3.1" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.9" y="-4.4" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="-2.3" y1="1.3" x2="-2.3" y2="-1.3" width="0.127" layer="22"/>
-<wire x1="-2.3" y1="-1.3" x2="2.3" y2="-1.3" width="0.127" layer="22"/>
-<wire x1="2.3" y1="-1.3" x2="2.3" y2="1.3" width="0.127" layer="22"/>
-<wire x1="2.3" y1="1.3" x2="-2.3" y2="1.3" width="0.127" layer="22"/>
 <wire x1="-2.1" y1="2.3" x2="-2.1" y2="-2.4" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="-2.4" x2="2.2" y2="-2.4" width="0.127" layer="21"/>
 <wire x1="2.2" y1="-2.4" x2="2.2" y2="2.3" width="0.127" layer="21"/>
