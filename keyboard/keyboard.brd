@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -142,10 +142,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="120" y2="0" width="0" layer="20"/>
-<wire x1="120" y1="0" x2="120" y2="150" width="0" layer="20"/>
-<wire x1="120" y1="150" x2="0" y2="150" width="0" layer="20"/>
-<wire x1="0" y1="150" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="113" y2="0" width="0" layer="20"/>
+<wire x1="113" y1="0" x2="113" y2="131.5" width="0" layer="20"/>
+<wire x1="113" y1="131.5" x2="0" y2="131.5" width="0" layer="20"/>
+<wire x1="0" y1="131.5" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="core51822b">
@@ -268,6 +268,8 @@
 <wire x1="6.9977" y1="-6.7437" x2="6.7437" y2="-6.9977" width="0.127" layer="21" curve="-90"/>
 <pad name="SW2A" x="-2.54" y="5.08" drill="1.4986"/>
 <pad name="SW1A" x="3.81" y="2.54" drill="1.4986"/>
+<text x="-2.54" y="-8.89" size="1.27" layer="21">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -460,38 +462,38 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SW1" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="22.132596875" y="52.77451875"/>
-<element name="SW10" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="98.132596875" y="31.87451875"/>
-<element name="SW11" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="22.132596875" y="14.774515625"/>
-<element name="SW12" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="41.132596875" y="19.524515625"/>
-<element name="SW13" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="60.1326" y="24.27451875"/>
-<element name="SW14" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="79.1326" y="19.524515625"/>
-<element name="SW15" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="98.132596875" y="12.874515625"/>
-<element name="SW16" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-59.24"/>
-<element name="SW17" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-66.86"/>
-<element name="SW18" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-74.48"/>
-<element name="SW19" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-82.1"/>
-<element name="SW2" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="41.132596875" y="57.524515625"/>
-<element name="SW20" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-89.72"/>
-<element name="SW21" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-51.62"/>
-<element name="SW22" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-97.34"/>
-<element name="SW23" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-104.96"/>
-<element name="SW24" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-127.82"/>
-<element name="SW25" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-112.58"/>
-<element name="SW26" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-120.2"/>
-<element name="SW3" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="60.1326" y="62.274515625"/>
-<element name="SW4" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="79.1326" y="57.52451875"/>
-<element name="SW5" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="98.132596875" y="50.87451875"/>
-<element name="SW6" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="22.1326" y="33.774515625"/>
-<element name="SW7" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="41.132596875" y="38.524515625"/>
-<element name="SW8" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="60.1326" y="43.274515625"/>
-<element name="SW9" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="79.1326" y="38.524515625"/>
-<element name="U$1" library="core51822b" package="CORE51822B" value="CORE51822B" x="-22.86" y="11.43"/>
-<element name="U$3" library="cree_plcc4_rgb_led" package="4-PLCC" value="CREE_PLCC4_RGB_LED" x="-119.38" y="114.3"/>
-<element name="U$4" library="yc164" package="YC164" value="YC164" x="-15.24" y="129.54"/>
-<element name="U$5" library="prog_header" package="PROG_HEADER" value="PROG_HEADER" x="-97.79" y="119.38"/>
-<element name="SW27" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-135.44"/>
-<element name="SW28" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="-3.81" y="-143.06"/>
+<element name="SW1" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="113.000003125"/>
+<element name="SW10" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="85" y="92.100003125"/>
+<element name="SW11" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="75"/>
+<element name="SW12" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="28" y="79.75"/>
+<element name="SW13" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="47" y="84.500003125"/>
+<element name="SW14" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="66" y="79.75"/>
+<element name="SW15" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="85" y="73.1"/>
+<element name="SW16" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="56"/>
+<element name="SW17" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="28" y="60.75"/>
+<element name="SW18" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="47" y="65.500003125"/>
+<element name="SW19" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="66" y="60.75"/>
+<element name="SW2" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="28" y="117.75"/>
+<element name="SW20" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="85" y="54.1"/>
+<element name="SW21" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="104" y="68.35"/>
+<element name="SW22" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="104" y="49.35"/>
+<element name="SW23" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="28"/>
+<element name="SW24" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="9"/>
+<element name="SW25" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="63.42173125" y="29.24225625" rot="R340"/>
+<element name="SW26" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="84.525084375" y="31.670953125" rot="R340"/>
+<element name="SW3" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="47" y="122.5"/>
+<element name="SW4" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="66" y="117.750003125"/>
+<element name="SW5" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="85" y="111.100003125"/>
+<element name="SW6" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="9" y="94"/>
+<element name="SW7" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="28" y="98.75"/>
+<element name="SW8" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="47" y="103.5"/>
+<element name="SW9" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="66" y="98.75"/>
+<element name="U$1" library="core51822b" package="CORE51822B" value="CORE51822B" x="36.85" y="35.18" rot="R180"/>
+<element name="U$3" library="cree_plcc4_rgb_led" package="4-PLCC" value="CREE_PLCC4_RGB_LED" x="104.37" y="117.3"/>
+<element name="U$4" library="yc164" package="YC164" value="YC164" x="104.51" y="110.29"/>
+<element name="U$5" library="prog_header" package="PROG_HEADER" value="PROG_HEADER" x="110.96" y="117.88"/>
+<element name="SW27" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="78.0267" y="13.81679375" rot="R340"/>
+<element name="SW28" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="99.130053125" y="16.245490625" rot="R340"/>
 </elements>
 <signals>
 </signals>
