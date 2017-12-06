@@ -491,7 +491,7 @@ design rules under a new name.</description>
 <element name="U$1" library="core51822b" package="CORE51822B" value="CORE51822B" x="36.85" y="35.18" rot="R180"/>
 <element name="U$3" library="cree_plcc4_rgb_led" package="4-PLCC" value="CREE_PLCC4_RGB_LED" x="104.37" y="117.3"/>
 <element name="U$4" library="yc164" package="YC164" value="YC164" x="104.51" y="110.29"/>
-<element name="U$5" library="prog_header" package="PROG_HEADER" value="PROG_HEADER" x="110.96" y="117.88"/>
+<element name="U$5" library="prog_header" package="PROG_HEADER" value="PROG_HEADER" x="102.96" y="104.13"/>
 <element name="SW27" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="78.0267" y="13.81679375" rot="R340"/>
 <element name="SW28" library="cherry_mx" package="CHERRY_MX" value="CHERRY_MX" x="99.130053125" y="16.245490625" rot="R340"/>
 </elements>
