@@ -558,7 +558,7 @@ CLVBA-FKA</description>
 <instance part="U$1" gate="G$1" x="124.46" y="-241.3"/>
 <instance part="U$3" gate="G$1" x="99.06" y="30.48"/>
 <instance part="U$4" gate="G$1" x="152.4" y="27.94"/>
-<instance part="U$5" gate="G$1" x="-35.56" y="45.72"/>
+<instance part="U$5" gate="G$1" x="210.82" y="25.4"/>
 <instance part="SW1" gate="G$1" x="30.48" y="-35.56"/>
 <instance part="SW2" gate="G$1" x="71.12" y="-35.56"/>
 <instance part="SW3" gate="G$1" x="114.3" y="-35.56"/>
@@ -707,6 +707,11 @@ CLVBA-FKA</description>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
 <wire x1="104.14" y1="-251.46" x2="86.36" y2="-251.46" width="0.1524" layer="91"/>
 <label x="76.2" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="210.82" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="236.22" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -1075,6 +1080,11 @@ CLVBA-FKA</description>
 <wire x1="144.78" y1="-238.76" x2="165.1" y2="-238.76" width="0.1524" layer="91"/>
 <label x="167.64" y="-238.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="SWDIO"/>
+<wire x1="210.82" y1="20.32" x2="233.68" y2="20.32" width="0.1524" layer="91"/>
+<label x="236.22" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
@@ -1082,12 +1092,22 @@ CLVBA-FKA</description>
 <wire x1="144.78" y1="-236.22" x2="165.1" y2="-236.22" width="0.1524" layer="91"/>
 <label x="167.64" y="-236.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="SWCLK"/>
+<wire x1="210.82" y1="17.78" x2="233.68" y2="17.78" width="0.1524" layer="91"/>
+<label x="236.22" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="104.14" y1="-254" x2="86.36" y2="-254" width="0.1524" layer="91"/>
 <label x="76.2" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VCC"/>
+<wire x1="210.82" y1="25.4" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
+<label x="236.22" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
