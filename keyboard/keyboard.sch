@@ -716,9 +716,9 @@ CLVBA-FKA</description>
 <label x="5.08" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P00"/>
-<wire x1="114.3" y1="-261.62" x2="114.3" y2="-276.86" width="0.1524" layer="91"/>
-<label x="114.3" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P17"/>
+<wire x1="144.78" y1="-233.68" x2="165.1" y2="-233.68" width="0.1524" layer="91"/>
+<label x="167.64" y="-233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW6" class="0">
@@ -728,9 +728,9 @@ CLVBA-FKA</description>
 <label x="5.08" y="-60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P05"/>
-<wire x1="127" y1="-261.62" x2="127" y2="-276.86" width="0.1524" layer="91"/>
-<label x="127" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P16"/>
+<wire x1="144.78" y1="-241.3" x2="165.1" y2="-241.3" width="0.1524" layer="91"/>
+<label x="167.64" y="-241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW11" class="0">
@@ -740,9 +740,9 @@ CLVBA-FKA</description>
 <label x="5.08" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P10"/>
-<wire x1="139.7" y1="-261.62" x2="139.7" y2="-276.86" width="0.1524" layer="91"/>
-<label x="139.7" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P15"/>
+<wire x1="144.78" y1="-243.84" x2="165.1" y2="-243.84" width="0.1524" layer="91"/>
+<label x="167.64" y="-243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW16" class="0">
@@ -752,9 +752,9 @@ CLVBA-FKA</description>
 <label x="5.08" y="-111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P15"/>
-<wire x1="144.78" y1="-243.84" x2="165.1" y2="-243.84" width="0.1524" layer="91"/>
-<label x="167.64" y="-243.84" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P14"/>
+<wire x1="144.78" y1="-246.38" x2="165.1" y2="-246.38" width="0.1524" layer="91"/>
+<label x="167.64" y="-246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW2" class="0">
@@ -765,9 +765,9 @@ CLVBA-FKA</description>
 <label x="55.88" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P01"/>
-<wire x1="116.84" y1="-261.62" x2="116.84" y2="-276.86" width="0.1524" layer="91"/>
-<label x="116.84" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P13"/>
+<wire x1="144.78" y1="-248.92" x2="165.1" y2="-248.92" width="0.1524" layer="91"/>
+<label x="167.64" y="-248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW7" class="0">
@@ -778,9 +778,9 @@ CLVBA-FKA</description>
 <label x="53.34" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P06"/>
-<wire x1="129.54" y1="-261.62" x2="129.54" y2="-276.86" width="0.1524" layer="91"/>
-<label x="129.54" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P12"/>
+<wire x1="144.78" y1="-251.46" x2="165.1" y2="-251.46" width="0.1524" layer="91"/>
+<label x="167.64" y="-251.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW12" class="0">
@@ -804,9 +804,9 @@ CLVBA-FKA</description>
 <label x="53.34" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P16"/>
-<wire x1="144.78" y1="-241.3" x2="165.1" y2="-241.3" width="0.1524" layer="91"/>
-<label x="167.64" y="-241.3" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P10"/>
+<wire x1="139.7" y1="-261.62" x2="139.7" y2="-276.86" width="0.1524" layer="91"/>
+<label x="139.7" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW3" class="0">
@@ -817,9 +817,9 @@ CLVBA-FKA</description>
 <label x="96.52" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P02"/>
-<wire x1="119.38" y1="-261.62" x2="119.38" y2="-276.86" width="0.1524" layer="91"/>
-<label x="119.38" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P09"/>
+<wire x1="137.16" y1="-261.62" x2="137.16" y2="-276.86" width="0.1524" layer="91"/>
+<label x="137.16" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW8" class="0">
@@ -830,9 +830,9 @@ CLVBA-FKA</description>
 <label x="96.52" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P07"/>
-<wire x1="132.08" y1="-261.62" x2="132.08" y2="-276.86" width="0.1524" layer="91"/>
-<label x="132.08" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P08"/>
+<wire x1="134.62" y1="-261.62" x2="134.62" y2="-276.86" width="0.1524" layer="91"/>
+<label x="134.62" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW13" class="0">
@@ -843,9 +843,9 @@ CLVBA-FKA</description>
 <label x="96.52" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P12"/>
-<wire x1="144.78" y1="-251.46" x2="165.1" y2="-251.46" width="0.1524" layer="91"/>
-<label x="167.64" y="-251.46" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P07"/>
+<wire x1="132.08" y1="-261.62" x2="132.08" y2="-276.86" width="0.1524" layer="91"/>
+<label x="132.08" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW18" class="0">
@@ -856,9 +856,9 @@ CLVBA-FKA</description>
 <label x="96.52" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P17"/>
-<wire x1="144.78" y1="-233.68" x2="165.1" y2="-233.68" width="0.1524" layer="91"/>
-<label x="167.64" y="-233.68" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P06"/>
+<wire x1="129.54" y1="-261.62" x2="129.54" y2="-276.86" width="0.1524" layer="91"/>
+<label x="129.54" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW4" class="0">
@@ -869,9 +869,9 @@ CLVBA-FKA</description>
 <label x="139.7" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P03"/>
-<wire x1="121.92" y1="-261.62" x2="121.92" y2="-276.86" width="0.1524" layer="91"/>
-<label x="121.92" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P05"/>
+<wire x1="127" y1="-261.62" x2="127" y2="-276.86" width="0.1524" layer="91"/>
+<label x="127" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW9" class="0">
@@ -882,9 +882,9 @@ CLVBA-FKA</description>
 <label x="139.7" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P08"/>
-<wire x1="134.62" y1="-261.62" x2="134.62" y2="-276.86" width="0.1524" layer="91"/>
-<label x="134.62" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P04"/>
+<wire x1="124.46" y1="-261.62" x2="124.46" y2="-276.86" width="0.1524" layer="91"/>
+<label x="124.46" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW14" class="0">
@@ -895,9 +895,9 @@ CLVBA-FKA</description>
 <label x="137.16" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P13"/>
-<wire x1="144.78" y1="-248.92" x2="165.1" y2="-248.92" width="0.1524" layer="91"/>
-<label x="167.64" y="-248.92" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P03"/>
+<wire x1="121.92" y1="-261.62" x2="121.92" y2="-276.86" width="0.1524" layer="91"/>
+<label x="121.92" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW19" class="0">
@@ -908,9 +908,9 @@ CLVBA-FKA</description>
 <label x="139.7" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P18"/>
-<wire x1="144.78" y1="-231.14" x2="165.1" y2="-231.14" width="0.1524" layer="91"/>
-<label x="167.64" y="-231.14" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P02"/>
+<wire x1="119.38" y1="-261.62" x2="119.38" y2="-276.86" width="0.1524" layer="91"/>
+<label x="119.38" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW5" class="0">
@@ -921,9 +921,9 @@ CLVBA-FKA</description>
 <label x="182.88" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P04"/>
-<wire x1="124.46" y1="-261.62" x2="124.46" y2="-276.86" width="0.1524" layer="91"/>
-<label x="124.46" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P01"/>
+<wire x1="116.84" y1="-261.62" x2="116.84" y2="-276.86" width="0.1524" layer="91"/>
+<label x="116.84" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW10" class="0">
@@ -934,9 +934,9 @@ CLVBA-FKA</description>
 <label x="182.88" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P09"/>
-<wire x1="137.16" y1="-261.62" x2="137.16" y2="-276.86" width="0.1524" layer="91"/>
-<label x="137.16" y="-287.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P00"/>
+<wire x1="114.3" y1="-261.62" x2="114.3" y2="-276.86" width="0.1524" layer="91"/>
+<label x="114.3" y="-287.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SW15" class="0">
@@ -947,9 +947,9 @@ CLVBA-FKA</description>
 <label x="182.88" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P14"/>
-<wire x1="144.78" y1="-246.38" x2="165.1" y2="-246.38" width="0.1524" layer="91"/>
-<label x="167.64" y="-246.38" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P29"/>
+<wire x1="104.14" y1="-248.92" x2="86.36" y2="-248.92" width="0.1524" layer="91"/>
+<label x="76.2" y="-248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW20" class="0">
@@ -960,9 +960,9 @@ CLVBA-FKA</description>
 <label x="182.88" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P19"/>
-<wire x1="144.78" y1="-228.6" x2="165.1" y2="-228.6" width="0.1524" layer="91"/>
-<label x="167.64" y="-228.6" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P28"/>
+<wire x1="104.14" y1="-246.38" x2="86.36" y2="-246.38" width="0.1524" layer="91"/>
+<label x="76.2" y="-246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW21" class="0">
@@ -973,9 +973,9 @@ CLVBA-FKA</description>
 <label x="246.38" y="-93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P20"/>
-<wire x1="144.78" y1="-226.06" x2="165.1" y2="-226.06" width="0.1524" layer="91"/>
-<label x="167.64" y="-226.06" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P25"/>
+<wire x1="104.14" y1="-238.76" x2="86.36" y2="-238.76" width="0.1524" layer="91"/>
+<label x="76.2" y="-238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW22" class="0">
@@ -986,9 +986,9 @@ CLVBA-FKA</description>
 <label x="243.84" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P21"/>
-<wire x1="104.14" y1="-228.6" x2="86.36" y2="-228.6" width="0.1524" layer="91"/>
-<label x="76.2" y="-228.6" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P24"/>
+<wire x1="104.14" y1="-236.22" x2="86.36" y2="-236.22" width="0.1524" layer="91"/>
+<label x="76.2" y="-236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW23" class="0">
@@ -999,9 +999,9 @@ CLVBA-FKA</description>
 <label x="53.34" y="-165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P22"/>
-<wire x1="104.14" y1="-231.14" x2="86.36" y2="-231.14" width="0.1524" layer="91"/>
-<label x="76.2" y="-231.14" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P18"/>
+<wire x1="144.78" y1="-231.14" x2="165.1" y2="-231.14" width="0.1524" layer="91"/>
+<label x="167.64" y="-231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW24" class="0">
@@ -1012,9 +1012,9 @@ CLVBA-FKA</description>
 <label x="50.8" y="-195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P23"/>
-<wire x1="104.14" y1="-233.68" x2="86.36" y2="-233.68" width="0.1524" layer="91"/>
-<label x="76.2" y="-233.68" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P19"/>
+<wire x1="144.78" y1="-228.6" x2="165.1" y2="-228.6" width="0.1524" layer="91"/>
+<label x="167.64" y="-228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW25" class="0">
@@ -1025,9 +1025,9 @@ CLVBA-FKA</description>
 <label x="149.86" y="-162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P24"/>
-<wire x1="104.14" y1="-236.22" x2="86.36" y2="-236.22" width="0.1524" layer="91"/>
-<label x="76.2" y="-236.22" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P23"/>
+<wire x1="104.14" y1="-233.68" x2="86.36" y2="-233.68" width="0.1524" layer="91"/>
+<label x="76.2" y="-233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW27" class="0">
@@ -1038,9 +1038,9 @@ CLVBA-FKA</description>
 <label x="187.96" y="-203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P28"/>
-<wire x1="104.14" y1="-246.38" x2="86.36" y2="-246.38" width="0.1524" layer="91"/>
-<label x="76.2" y="-246.38" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P21"/>
+<wire x1="104.14" y1="-228.6" x2="86.36" y2="-228.6" width="0.1524" layer="91"/>
+<label x="76.2" y="-228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW26" class="0">
@@ -1051,9 +1051,9 @@ CLVBA-FKA</description>
 <label x="213.36" y="-162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P25"/>
-<wire x1="104.14" y1="-238.76" x2="86.36" y2="-238.76" width="0.1524" layer="91"/>
-<label x="76.2" y="-238.76" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P22"/>
+<wire x1="104.14" y1="-231.14" x2="86.36" y2="-231.14" width="0.1524" layer="91"/>
+<label x="76.2" y="-231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW28" class="0">
@@ -1064,9 +1064,9 @@ CLVBA-FKA</description>
 <label x="226.06" y="-218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P29"/>
-<wire x1="104.14" y1="-248.92" x2="86.36" y2="-248.92" width="0.1524" layer="91"/>
-<label x="76.2" y="-248.92" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P20"/>
+<wire x1="144.78" y1="-226.06" x2="165.1" y2="-226.06" width="0.1524" layer="91"/>
+<label x="167.64" y="-226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
