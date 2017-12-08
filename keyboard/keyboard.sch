@@ -455,9 +455,6 @@ CLVBA-FKA</description>
 <library name="cherry_mx">
 <packages>
 <package name="CHERRY_MX">
-<hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.7018"/>
-<hole x="5.08" y="0" drill="1.7018"/>
 <pad name="SW2B" x="2.54" y="5.08" drill="1.4986"/>
 <pad name="SW1B" x="-3.81" y="2.54" drill="1.4986"/>
 <wire x1="-9.0805" y1="9.0805" x2="9.0805" y2="9.0805" width="0.127" layer="21"/>
@@ -476,6 +473,9 @@ CLVBA-FKA</description>
 <pad name="SW1A" x="3.81" y="2.54" drill="1.4986"/>
 <text x="-2.54" y="-8.89" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="7.62" size="1.27" layer="21">&gt;VALUE</text>
+<pad name="P$1" x="-5.08" y="0" drill="1.7018" diameter="1.9304"/>
+<pad name="P$2" x="5.08" y="0" drill="1.7018" diameter="1.9304"/>
+<pad name="P$3" x="0" y="0" drill="3.9878" diameter="4.572"/>
 </package>
 </packages>
 <symbols>
@@ -755,6 +755,30 @@ CLVBA-FKA</description>
 <wire x1="261.62" y1="-124.46" x2="261.62" y2="-205.74" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="-205.74" x2="248.92" y2="-205.74" width="0.1524" layer="91"/>
 <junction x="261.62" y="-124.46"/>
+<junction x="38.1" y="-86.36"/>
+<junction x="38.1" y="-60.96"/>
+<junction x="38.1" y="-35.56"/>
+<junction x="78.74" y="-35.56"/>
+<junction x="78.74" y="-60.96"/>
+<junction x="38.1" y="-111.76"/>
+<junction x="78.74" y="-111.76"/>
+<junction x="78.74" y="-86.36"/>
+<junction x="121.92" y="-35.56"/>
+<junction x="121.92" y="-60.96"/>
+<junction x="167.64" y="-35.56"/>
+<junction x="167.64" y="-60.96"/>
+<junction x="208.28" y="-35.56"/>
+<junction x="208.28" y="-60.96"/>
+<junction x="208.28" y="-86.36"/>
+<junction x="167.64" y="-86.36"/>
+<junction x="121.92" y="-86.36"/>
+<junction x="121.92" y="-111.76"/>
+<junction x="167.64" y="-111.76"/>
+<junction x="208.28" y="-111.76"/>
+<junction x="274.32" y="-111.76"/>
+<junction x="274.32" y="-86.36"/>
+<junction x="86.36" y="-157.48"/>
+<junction x="38.1" y="-124.46"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND0"/>
