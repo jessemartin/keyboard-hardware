@@ -62,11 +62,11 @@
 <library>
 <packages>
 <package name="MCP73831T">
-<smd name="1" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="1-STAT" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="2-VSS" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3-VBAT" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4VDD" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="5-PROG" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
 <wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.127" layer="21"/>
 <wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.127" layer="21"/>
@@ -82,11 +82,11 @@
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="-5.08" length="middle" rot="R270"/>
-<pin name="2" x="0" y="-5.08" length="middle" rot="R270"/>
-<pin name="3" x="5.08" y="-5.08" length="middle" rot="R270"/>
-<pin name="5" x="-5.08" y="5.08" length="middle" rot="R90"/>
-<pin name="4" x="5.08" y="5.08" length="middle" rot="R90"/>
+<pin name="1-STAT" x="-5.08" y="-5.08" length="middle" rot="R270"/>
+<pin name="2-VSS" x="0" y="-5.08" length="middle" rot="R270"/>
+<pin name="3-VBAT" x="5.08" y="-5.08" length="middle" rot="R270"/>
+<pin name="5-PROG" x="-5.08" y="5.08" length="middle" rot="R90"/>
+<pin name="4-VDD" x="5.08" y="5.08" length="middle" rot="R90"/>
 <text x="-5.08" y="0" size="1.778" layer="94">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
@@ -99,11 +99,11 @@
 <devices>
 <device name="" package="MCP73831T">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="1-STAT" pad="1-STAT"/>
+<connect gate="G$1" pin="2-VSS" pad="2-VSS"/>
+<connect gate="G$1" pin="3-VBAT" pad="3-VBAT"/>
+<connect gate="G$1" pin="4-VDD" pad="4VDD"/>
+<connect gate="G$1" pin="5-PROG" pad="5-PROG"/>
 </connects>
 <technologies>
 <technology name=""/>
