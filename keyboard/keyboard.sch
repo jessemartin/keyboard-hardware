@@ -4611,6 +4611,40 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="batt_header">
+<packages>
+<package name="BATT_HEADER">
+<pad name="+" x="-1.27" y="0" drill="0.85" diameter="1.524" shape="square"/>
+<pad name="-" x="1.27" y="0" drill="0.85" diameter="1.524"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BATT_HEADER">
+<pin name="+" x="-5.08" y="0" length="middle" rot="R90"/>
+<pin name="-" x="5.08" y="0" length="middle" rot="R90"/>
+<text x="-5.08" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BATT_HEADER">
+<gates>
+<gate name="G$1" symbol="BATT_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BATT_HEADER">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4667,6 +4701,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:26063/1" value="2k"/>
 <part name="U$10" library="GRM32ER71H475KA88L" deviceset="GRM32ER71H475KA88L" device=""/>
 <part name="U$11" library="GRM32ER71H475KA88L" deviceset="GRM32ER71H475KA88L" device=""/>
+<part name="U$12" library="batt_header" deviceset="BATT_HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4719,6 +4754,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R6" gate="G$1" x="312.42" y="20.32"/>
 <instance part="U$10" gate="G$1" x="337.82" y="66.04"/>
 <instance part="U$11" gate="G$1" x="370.84" y="66.04"/>
+<instance part="U$12" gate="G$1" x="208.28" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -4933,6 +4969,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$11" gate="G$1" pin="P$2"/>
 <wire x1="373.38" y1="66.04" x2="386.08" y2="66.04" width="0.1524" layer="91"/>
 <label x="383.54" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="-"/>
+<wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="215.9" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -5613,6 +5654,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 <wire x1="368.3" y1="66.04" x2="358.14" y2="66.04" width="0.1524" layer="91"/>
 <label x="358.14" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="+"/>
+<wire x1="203.2" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<label x="200.66" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PROG" class="0">
