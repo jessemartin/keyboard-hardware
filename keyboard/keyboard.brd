@@ -144,18 +144,26 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="113" y2="0" width="0" layer="20"/>
-<wire x1="113" y1="0" x2="113" y2="122" width="0" layer="20"/>
-<wire x1="0" y1="122" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="122" x2="19" y2="122" width="0" layer="20"/>
-<wire x1="19" y1="122" x2="19" y2="127" width="0" layer="20"/>
-<wire x1="19" y1="127" x2="38" y2="127" width="0" layer="20"/>
-<wire x1="38" y1="127" x2="38" y2="131.5" width="0" layer="20"/>
-<wire x1="38" y1="131.5" x2="56" y2="131.5" width="0" layer="20"/>
-<wire x1="56" y1="131.5" x2="56" y2="126.75" width="0" layer="20"/>
-<wire x1="56" y1="126.75" x2="75" y2="126.75" width="0" layer="20"/>
-<wire x1="75" y1="126.75" x2="75" y2="122" width="0" layer="20"/>
-<wire x1="75" y1="122" x2="113" y2="122" width="0" layer="20"/>
+<wire x1="113" y1="121" x2="113" y2="1" width="0" layer="20"/>
+<wire x1="113" y1="1" x2="112" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="112" y1="0" x2="1" y2="0" width="0" layer="20"/>
+<wire x1="1" y1="0" x2="0" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="1" x2="0" y2="121" width="0" layer="20"/>
+<wire x1="75" y1="122" x2="112" y2="122" width="0" layer="20"/>
+<wire x1="112" y1="122" x2="113" y2="121" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="121" x2="1" y2="122" width="0" layer="20" curve="-90"/>
+<wire x1="1" y1="122" x2="19" y2="122" width="0" layer="20"/>
+<wire x1="19" y1="122" x2="19" y2="126" width="0" layer="20"/>
+<wire x1="19" y1="126" x2="20" y2="127" width="0" layer="20" curve="-90"/>
+<wire x1="20" y1="127" x2="38" y2="127" width="0" layer="20"/>
+<wire x1="38" y1="127" x2="38" y2="130.5" width="0" layer="20"/>
+<wire x1="38" y1="130.5" x2="39" y2="131.5" width="0" layer="20" curve="-90"/>
+<wire x1="39" y1="131.5" x2="55" y2="131.5" width="0" layer="20"/>
+<wire x1="55" y1="131.5" x2="56" y2="130.5" width="0" layer="20" curve="-90"/>
+<wire x1="56" y1="130.5" x2="56" y2="126.75" width="0" layer="20"/>
+<wire x1="56" y1="126.75" x2="74" y2="126.75" width="0" layer="20"/>
+<wire x1="74" y1="126.75" x2="75" y2="125.75" width="0" layer="20" curve="-90"/>
+<wire x1="75" y1="125.75" x2="75" y2="122" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="core51822b">
