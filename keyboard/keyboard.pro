@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/jesse/code/keyboard-hardware/keyboard/keyboard.brd
 
-Start at      : 19:38:26 (12/10/17)
-End at        : 19:38:29 (12/10/17)
-Elapsed time  : 00:00:01
+Start at      : 21:32:10 (12/10/17)
+End at        : 21:32:14 (12/10/17)
+Elapsed time  : 00:00:00
 
 Signals       :    40   RoutingGrid: 19.685 mil  Layers: 2
-Connections   :   186   predefined:  159 ( 40 Vias )
+Connections   :   190   predefined:  186 ( 79 Vias )
 
 Router memory :   429760
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
-Routed            :        27        27        27        27        27
-Vias              :        25        11        11        10         9
+Routed            :         4         4         4         4         4
+Vias              :         0         0         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 98.9% finished. Polygons may have fallen apart.
+Final             : 100.0% finished

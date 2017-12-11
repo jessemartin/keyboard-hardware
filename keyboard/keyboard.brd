@@ -1741,8 +1741,89 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="31.5" y1="33.2" x2="33.22" y2="33.22" width="0.1524" layer="16"/>
 <contactref element="INDUCTION_CHARGER" pad="-"/>
 <contactref element="BATTERY" pad="-"/>
-<via x="103.8" y="98.7" extent="1-16" drill="0.35" diameter="0.5"/>
+<via x="103.3" y="98.7" extent="1-16" drill="0.35" diameter="0.5"/>
 <via x="46.1" y="43.9" extent="1-16" drill="0.35" diameter="0.5"/>
+<via x="103.3" y="101.5" extent="1-16" drill="0.35"/>
+<via x="104.8" y="101.5" extent="1-16" drill="0.35"/>
+<via x="106.3" y="101.5" extent="1-16" drill="0.35"/>
+<via x="107.8" y="101.5" extent="1-16" drill="0.35"/>
+<via x="109.3" y="101.5" extent="1-16" drill="0.35"/>
+<via x="109.3" y="100.1" extent="1-16" drill="0.35"/>
+<via x="107.8" y="100.1" extent="1-16" drill="0.35"/>
+<via x="106.3" y="100.1" extent="1-16" drill="0.35"/>
+<via x="104.8" y="100.1" extent="1-16" drill="0.35"/>
+<via x="103.3" y="100.1" extent="1-16" drill="0.35"/>
+<via x="104.8" y="98.7" extent="1-16" drill="0.35"/>
+<via x="106.3" y="98.7" extent="1-16" drill="0.35"/>
+<via x="107.8" y="98.7" extent="1-16" drill="0.35"/>
+<via x="109.3" y="98.7" extent="1-16" drill="0.35"/>
+<via x="109.3" y="97.3" extent="1-16" drill="0.35"/>
+<via x="109.3" y="95.8" extent="1-16" drill="0.35"/>
+<via x="107.8" y="95.8" extent="1-16" drill="0.35"/>
+<via x="107.8" y="97.3" extent="1-16" drill="0.35"/>
+<via x="106.3" y="97.3" extent="1-16" drill="0.35"/>
+<via x="106.3" y="95.8" extent="1-16" drill="0.35"/>
+<via x="104.8" y="95.8" extent="1-16" drill="0.35"/>
+<via x="104.8" y="97.3" extent="1-16" drill="0.35"/>
+<via x="103.3" y="97.3" extent="1-16" drill="0.35"/>
+<via x="103.3" y="95.8" extent="1-16" drill="0.35"/>
+<wire x1="104.8" y1="101.5" x2="103.3" y2="101.5" width="0.127" layer="1"/>
+<wire x1="107.8" y1="101.5" x2="106.3" y2="101.5" width="0.127" layer="1"/>
+<wire x1="107.8" y1="101.5" x2="109.3" y2="101.5" width="0.127" layer="1"/>
+<wire x1="106.3" y1="101.5" x2="104.8" y2="101.5" width="0.127" layer="1"/>
+<wire x1="104.5" y1="100" x2="103.5" y2="100" width="0.127" layer="1"/>
+<wire x1="103.5" y1="100" x2="103.3" y2="100.1" width="0.127" layer="1"/>
+<wire x1="104.5" y1="100" x2="104.8" y2="100.1" width="0.127" layer="1"/>
+<wire x1="107.5" y1="100" x2="106.5" y2="100" width="0.127" layer="1"/>
+<wire x1="106.5" y1="100" x2="106.3" y2="100.1" width="0.127" layer="1"/>
+<wire x1="107.5" y1="100" x2="107.8" y2="100.1" width="0.127" layer="1"/>
+<wire x1="108" y1="100" x2="109" y2="100" width="0.127" layer="1"/>
+<wire x1="109" y1="100" x2="109.3" y2="100.1" width="0.127" layer="1"/>
+<wire x1="108" y1="100" x2="107.8" y2="100.1" width="0.127" layer="1"/>
+<wire x1="106" y1="100" x2="105" y2="100" width="0.127" layer="1"/>
+<wire x1="105" y1="100" x2="104.8" y2="100.1" width="0.127" layer="1"/>
+<wire x1="106" y1="100" x2="106.3" y2="100.1" width="0.127" layer="1"/>
+<wire x1="109.5" y1="100" x2="109.5" y2="101.5" width="0.127" layer="1"/>
+<wire x1="105" y1="98.5" x2="105" y2="97.5" width="0.127" layer="1"/>
+<wire x1="105" y1="98.5" x2="104.8" y2="98.7" width="0.127" layer="1"/>
+<wire x1="106.5" y1="98.5" x2="106.5" y2="97.5" width="0.127" layer="1"/>
+<wire x1="106.5" y1="97.5" x2="106.3" y2="97.3" width="0.127" layer="1"/>
+<wire x1="106.5" y1="98.5" x2="106.3" y2="98.7" width="0.127" layer="1"/>
+<wire x1="108" y1="98.5" x2="108" y2="97.5" width="0.127" layer="1"/>
+<wire x1="108" y1="97.5" x2="107.8" y2="97.3" width="0.127" layer="1"/>
+<wire x1="108" y1="98.5" x2="107.8" y2="98.7" width="0.127" layer="1"/>
+<wire x1="109.5" y1="98.5" x2="109.5" y2="97.5" width="0.127" layer="1"/>
+<wire x1="109.5" y1="97.5" x2="109.3" y2="97.3" width="0.127" layer="1"/>
+<wire x1="103.5" y1="97.5" x2="103.5" y2="96" width="0.127" layer="1"/>
+<wire x1="103.5" y1="96" x2="105" y2="96" width="0.127" layer="1"/>
+<wire x1="103.5" y1="96" x2="103.3" y2="95.8" width="0.127" layer="1"/>
+<wire x1="105" y1="96" x2="106.5" y2="96" width="0.127" layer="1"/>
+<wire x1="105" y1="96" x2="104.8" y2="95.8" width="0.127" layer="1"/>
+<wire x1="106.5" y1="96" x2="108" y2="96" width="0.127" layer="1"/>
+<wire x1="106.5" y1="96" x2="106.3" y2="95.8" width="0.127" layer="1"/>
+<wire x1="108" y1="96" x2="109.5" y2="96" width="0.127" layer="1"/>
+<wire x1="108" y1="96" x2="107.8" y2="95.8" width="0.127" layer="1"/>
+<wire x1="103.5" y1="97.5" x2="105" y2="97.5" width="0.127" layer="1"/>
+<wire x1="105" y1="97.5" x2="104.8" y2="97.3" width="0.127" layer="1"/>
+<wire x1="103.5" y1="97.5" x2="103.3" y2="97.3" width="0.127" layer="1"/>
+<wire x1="109.5" y1="98.5" x2="109.5" y2="100" width="0.127" layer="1"/>
+<wire x1="109.5" y1="98.5" x2="109.3" y2="98.7" width="0.127" layer="1"/>
+<via x="110.8" y="101.5" extent="1-16" drill="0.35"/>
+<via x="110.8" y="100.1" extent="1-16" drill="0.35"/>
+<via x="110.8" y="98.7" extent="1-16" drill="0.35"/>
+<via x="110.8" y="97.3" extent="1-16" drill="0.35"/>
+<via x="110.8" y="95.8" extent="1-16" drill="0.35"/>
+<wire x1="109.5" y1="96" x2="111" y2="96" width="0.127" layer="1"/>
+<wire x1="111" y1="96" x2="110.8" y2="95.8" width="0.127" layer="1"/>
+<wire x1="109.5" y1="96" x2="109.3" y2="95.8" width="0.127" layer="1"/>
+<wire x1="111" y1="98.5" x2="111" y2="97.5" width="0.127" layer="1"/>
+<wire x1="111" y1="97.5" x2="110.8" y2="97.3" width="0.127" layer="1"/>
+<wire x1="111" y1="98.5" x2="110.8" y2="98.7" width="0.127" layer="1"/>
+<wire x1="109.5" y1="100" x2="110.5" y2="100" width="0.127" layer="1"/>
+<wire x1="110.5" y1="100" x2="110.8" y2="100.1" width="0.127" layer="1"/>
+<wire x1="109.5" y1="100" x2="109.3" y2="100.1" width="0.127" layer="1"/>
+<wire x1="109.5" y1="101.5" x2="110.8" y2="101.5" width="0.127" layer="1"/>
+<wire x1="109.5" y1="101.5" x2="109.3" y2="101.5" width="0.127" layer="1"/>
 </signal>
 <signal name="SW1">
 <contactref element="SW1" pad="SW1B"/>
