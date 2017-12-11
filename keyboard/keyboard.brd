@@ -164,6 +164,8 @@
 <wire x1="56" y1="126.75" x2="74" y2="126.75" width="0" layer="20"/>
 <wire x1="74" y1="126.75" x2="75" y2="125.75" width="0" layer="20" curve="-90"/>
 <wire x1="75" y1="125.75" x2="75" y2="122" width="0" layer="20"/>
+<text x="20.9" y="2.4" size="2.54" layer="25" font="vector">Jesse Martin</text>
+<text x="40.2" y="2.4" size="2.54" layer="26" font="vector" rot="MR0">Jesse Martin</text>
 </plain>
 <libraries>
 <library name="core51822b">
@@ -2354,8 +2356,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="111.5" y1="78.5" x2="107" y2="83" width="0.127" layer="1"/>
 <wire x1="111.5" y1="19" x2="111.5" y2="78.5" width="0.127" layer="1"/>
 <wire x1="101.5" y1="9" x2="111.5" y2="19" width="0.127" layer="1"/>
-<wire x1="62" y1="9" x2="101.5" y2="9" width="0.127" layer="1"/>
-<wire x1="39.5" y1="31.5" x2="62" y2="9" width="0.127" layer="1"/>
+<wire x1="72.7" y1="9" x2="101.5" y2="9" width="0.127" layer="1"/>
+<wire x1="39.5" y1="31.5" x2="39.6" y2="31.5" width="0.127" layer="1"/>
+<wire x1="39.6" y1="31.5" x2="40.8" y2="30.3" width="0.127" layer="1"/>
+<wire x1="40.8" y1="30.3" x2="41.6" y2="30.3" width="0.127" layer="1"/>
+<wire x1="41.6" y1="30.3" x2="42.3" y2="31" width="0.127" layer="1"/>
+<wire x1="42.3" y1="31" x2="50.4" y2="31" width="0.127" layer="1"/>
+<wire x1="50.4" y1="31" x2="50.5" y2="30.9" width="0.127" layer="1"/>
+<wire x1="50.5" y1="30.9" x2="72.7" y2="9" width="0.127" layer="1"/>
 <wire x1="107" y1="84" x2="106.56" y2="84.45" width="0.127" layer="1"/>
 <via x="39.5" y="31.5" extent="1-16" drill="0.3048"/>
 </signal>
@@ -2379,8 +2387,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="111" y1="73" x2="107" y2="77" width="0.127" layer="1"/>
 <wire x1="111" y1="19" x2="111" y2="73" width="0.127" layer="1"/>
 <wire x1="101.5" y1="9.5" x2="111" y2="19" width="0.127" layer="1"/>
-<wire x1="62.5" y1="9.5" x2="101.5" y2="9.5" width="0.127" layer="1"/>
-<wire x1="40.5" y1="31.5" x2="62.5" y2="9.5" width="0.127" layer="1"/>
+<wire x1="72.8" y1="9.5" x2="101.5" y2="9.5" width="0.127" layer="1"/>
+<wire x1="40.5" y1="31.5" x2="41.8" y2="31.5" width="0.127" layer="1"/>
+<wire x1="41.8" y1="31.5" x2="42" y2="31.7" width="0.127" layer="1"/>
+<wire x1="42" y1="31.7" x2="50.5" y2="31.7" width="0.127" layer="1"/>
+<wire x1="50.5" y1="31.7" x2="72.8" y2="9.5" width="0.127" layer="1"/>
 <wire x1="107" y1="81.5" x2="106.56" y2="81.91" width="0.127" layer="1"/>
 </signal>
 <signal name="VCC">
