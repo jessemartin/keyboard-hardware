@@ -464,6 +464,18 @@ CLVBA-FKA</description>
 <circle x="-1.8" y="-1.7" radius="0.1" width="0.2" layer="21"/>
 <text x="-3.3" y="3.9" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.4" y="2.3" size="1.27" layer="21">&gt;VALUE</text>
+<polygon width="0.127" layer="1">
+<vertex x="-0.3" y="-0.8"/>
+<vertex x="-0.3" y="-2.146"/>
+<vertex x="-0.554" y="-2.4"/>
+<vertex x="-4" y="-2.4"/>
+<vertex x="-4" y="-12"/>
+<vertex x="4" y="-12"/>
+<vertex x="4" y="-2.4"/>
+<vertex x="0.554" y="-2.4"/>
+<vertex x="0.3" y="-2.146"/>
+<vertex x="0.3" y="-0.8"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -477,8 +489,8 @@ CLVBA-FKA</description>
 <pin name="3-VBAT" x="5.08" y="-5.08" length="middle" rot="R270"/>
 <pin name="5-PROG" x="-5.08" y="5.08" length="middle" rot="R90"/>
 <pin name="4-VDD" x="5.08" y="5.08" length="middle" rot="R90"/>
-<text x="-5.08" y="0" size="1.778" layer="94">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -495,74 +507,6 @@ CLVBA-FKA</description>
 <connect gate="G$1" pin="4-VDD" pad="4VDD"/>
 <connect gate="G$1" pin="5-PROG" pad="5-PROG"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="battery" urn="urn:adsk.eagle:library:109">
-<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SL-340/P3.6V" urn="urn:adsk.eagle:footprint:4555/1" library_version="1">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Sonnenschein</description>
-<wire x1="-3.048" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="0" x2="-4.572" y2="0" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="5.715" y2="0" width="0.254" layer="21"/>
-<wire x1="2.54" y1="0" x2="4.445" y2="0" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="0" x2="7.62" y2="0" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="0" x2="5.715" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="6.223" y1="1.524" x2="7.239" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="6.731" y1="2.032" x2="6.731" y2="1.016" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="11.303" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="9.271" width="0.1524" layer="21"/>
-<pad name="+" x="0" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
-<pad name="-" x="-7.62" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
-<text x="-2.54" y="11.811" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.715" y="5.08" size="1.27" layer="21" ratio="10">Lithium</text>
-<text x="-5.715" y="2.54" size="1.27" layer="21" ratio="10">3V6</text>
-<rectangle x1="4.445" y1="-1.27" x2="5.08" y2="1.27" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SL-340/P3.6V" urn="urn:adsk.eagle:package:4605/1" type="box" library_version="1">
-<description>LI BATTERY Sonnenschein</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="1V2" urn="urn:adsk.eagle:symbol:4515/1" library_version="1">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SL-340/P3.6V" urn="urn:adsk.eagle:component:4661/1" prefix="G" library_version="1">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Sonnenschein</description>
-<gates>
-<gate name="G$1" symbol="1V2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SL-340/P3.6V">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4605/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4687,7 +4631,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SW27" library="cherry_mx" deviceset="CHERRY_MX" device=""/>
 <part name="SW28" library="cherry_mx" deviceset="CHERRY_MX" device=""/>
 <part name="U$2" library="mcp73831t" deviceset="MCP73831T" device=""/>
-<part name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="SL-340/P3.6V" device="" package3d_urn="urn:adsk.eagle:package:4605/1"/>
 <part name="U$6" library="core51822b" deviceset="CORE51822B" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:26063/1" value="2k"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:26063/1" value="2k"/>
@@ -4702,6 +4645,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$10" library="GRM32ER71H475KA88L" deviceset="GRM32ER71H475KA88L" device=""/>
 <part name="U$11" library="GRM32ER71H475KA88L" deviceset="GRM32ER71H475KA88L" device=""/>
 <part name="U$12" library="batt_header" deviceset="BATT_HEADER" device=""/>
+<part name="U$13" library="batt_header" deviceset="BATT_HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4740,7 +4684,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SW27" gate="G$1" x="198.12" y="-187.96"/>
 <instance part="SW28" gate="G$1" x="243.84" y="-205.74"/>
 <instance part="U$2" gate="G$1" x="45.72" y="33.02"/>
-<instance part="G1" gate="G$1" x="66.04" y="73.66"/>
 <instance part="U$6" gate="G$1" x="256.54" y="-264.16"/>
 <instance part="R2" gate="G$1" x="88.9" y="40.64"/>
 <instance part="R3" gate="G$1" x="88.9" y="33.02"/>
@@ -4755,6 +4698,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U$10" gate="G$1" x="337.82" y="66.04"/>
 <instance part="U$11" gate="G$1" x="370.84" y="66.04"/>
 <instance part="U$12" gate="G$1" x="208.28" y="68.58"/>
+<instance part="U$13" gate="G$1" x="40.64" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -4911,11 +4855,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="45.72" y="5.08" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="G1" gate="G$1" pin="-"/>
-<wire x1="60.96" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-<label x="53.34" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="GND0"/>
 <wire x1="236.22" y1="-248.92" x2="218.44" y2="-248.92" width="0.1524" layer="91"/>
 <label x="208.28" y="-248.92" size="1.778" layer="95"/>
@@ -4974,6 +4913,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$12" gate="G$1" pin="-"/>
 <wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 <label x="215.9" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<label x="50.8" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -5522,11 +5466,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="50.8" y="5.08" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="G1" gate="G$1" pin="+"/>
-<wire x1="71.12" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="81.28" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="VCC"/>
 <wire x1="236.22" y1="-276.86" x2="218.44" y2="-276.86" width="0.1524" layer="91"/>
 <label x="208.28" y="-276.86" size="1.778" layer="95"/>
@@ -5545,6 +5484,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 <wire x1="335.28" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="322.58" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="+"/>
+<wire x1="35.56" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="30.48" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="RED" class="0">
