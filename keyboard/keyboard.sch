@@ -413,8 +413,8 @@ CLVBA-FKA</description>
 <wire x1="6.9977" y1="-6.7437" x2="6.7437" y2="-6.9977" width="0.127" layer="21" curve="-90"/>
 <pad name="SW2A" x="-2.54" y="5.08" drill="1.4986"/>
 <pad name="SW1A" x="3.81" y="2.54" drill="1.4986"/>
-<text x="-2.54" y="-8.89" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="7.62" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-2.54" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.27" layer="27">&gt;VALUE</text>
 <pad name="P$1" x="-5.08" y="0" drill="1.7018" diameter="1.9304"/>
 <pad name="P$2" x="5.08" y="0" drill="1.7018" diameter="1.9304"/>
 <pad name="P$3" x="0" y="0" drill="3.9878" diameter="4.572"/>
