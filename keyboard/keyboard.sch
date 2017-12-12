@@ -80,6 +80,7 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="lasercut" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -416,6 +417,14 @@ CLVBA-FKA</description>
 <pad name="P$1" x="-5.08" y="0" drill="1.7018" diameter="1.9304"/>
 <pad name="P$2" x="5.08" y="0" drill="1.7018" diameter="1.9304"/>
 <pad name="P$3" x="0" y="0" drill="3.9878" diameter="4.572"/>
+<wire x1="6.75" y1="-7" x2="-6.75" y2="-7" width="0.15" layer="114"/>
+<wire x1="-6.75" y1="-7" x2="-7" y2="-6.75" width="0.15" layer="114" curve="-90"/>
+<wire x1="-7" y1="-6.75" x2="-7" y2="6.75" width="0.15" layer="114"/>
+<wire x1="-7" y1="6.75" x2="-6.75" y2="7" width="0.15" layer="114" curve="-90"/>
+<wire x1="-6.75" y1="7" x2="6.75" y2="7" width="0.15" layer="114"/>
+<wire x1="6.75" y1="7" x2="7" y2="6.75" width="0.15" layer="114" curve="-90"/>
+<wire x1="7" y1="6.75" x2="7" y2="-6.75" width="0.15" layer="114"/>
+<wire x1="7" y1="-6.75" x2="6.75" y2="-7" width="0.15" layer="114" curve="-90"/>
 </package>
 </packages>
 <symbols>
