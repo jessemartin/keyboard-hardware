@@ -317,16 +317,16 @@ CLK</text>
 <text x="-3.3" y="3.9" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.4" y="2.3" size="1.27" layer="21">&gt;VALUE</text>
 <polygon width="0.127" layer="1">
-<vertex x="-0.3" y="-0.8"/>
-<vertex x="-0.3" y="-2.146"/>
+<vertex x="-0.25" y="-0.9"/>
+<vertex x="-0.25" y="-2.146"/>
 <vertex x="-0.554" y="-2.4"/>
 <vertex x="-4" y="-2.4"/>
 <vertex x="-4" y="-12"/>
 <vertex x="4" y="-12"/>
 <vertex x="4" y="-2.4"/>
 <vertex x="0.554" y="-2.4"/>
-<vertex x="0.3" y="-2.146"/>
-<vertex x="0.3" y="-0.8"/>
+<vertex x="0.25" y="-2.146"/>
+<vertex x="0.25" y="-0.9"/>
 </polygon>
 </package>
 </packages>
