@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -426,6 +426,14 @@ CLVBA-FKA</description>
 <wire x1="6.75" y1="7" x2="7" y2="6.75" width="0.15" layer="114" curve="-90"/>
 <wire x1="7" y1="6.75" x2="7" y2="-6.75" width="0.15" layer="114"/>
 <wire x1="7" y1="-6.75" x2="6.75" y2="-7" width="0.15" layer="114" curve="-90"/>
+<wire x1="6.7437" y1="-6.9977" x2="-6.7437" y2="-6.9977" width="0.127" layer="22"/>
+<wire x1="-6.7437" y1="-6.9977" x2="-6.9977" y2="-6.7437" width="0.127" layer="22" curve="-90"/>
+<wire x1="-6.9977" y1="-6.7437" x2="-6.9977" y2="6.7437" width="0.127" layer="22"/>
+<wire x1="-6.9977" y1="6.7437" x2="-6.7437" y2="6.9977" width="0.127" layer="22" curve="-90"/>
+<wire x1="-6.7437" y1="6.9977" x2="6.7437" y2="6.9977" width="0.127" layer="22"/>
+<wire x1="6.7437" y1="6.9977" x2="6.9977" y2="6.7437" width="0.127" layer="22" curve="-90"/>
+<wire x1="6.9977" y1="6.7437" x2="6.9977" y2="-6.7437" width="0.127" layer="22"/>
+<wire x1="6.9977" y1="-6.7437" x2="6.7437" y2="-6.9977" width="0.127" layer="22" curve="-90"/>
 </package>
 </packages>
 <symbols>
