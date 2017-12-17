@@ -29,3 +29,9 @@ PCB Fab Specifications
 * FR4 fiberglass
 * 2 layer
 * 1.6mm thickness
+
+Receiver PCB
+------------
+
+![Top](/img/board_top.png)
+![Bottom](/img/board_bottom.png)
