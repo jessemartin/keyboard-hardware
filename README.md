@@ -30,8 +30,13 @@ PCB Fab Specifications
 * 2 layer
 * 1.6mm thickness
 
-Receiver PCB
-------------
+Keyboard PCBs
+-------------
 
+A single, reversible board is used for each keyboard half.
+
+The top of the board is used for the left half:
 ![Top](/img/board_top.png)
+
+The bottom of the board is used for the right half:
 ![Bottom](/img/board_bottom.png)
