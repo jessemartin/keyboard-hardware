@@ -12,8 +12,8 @@
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
-<layer number="114" name="lasercut" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="lasercut" color="14" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -188,6 +188,8 @@ DIO
 CLK</text>
 <rectangle x1="59.935" y1="15.21" x2="60.665" y2="15.49" layer="29"/>
 <rectangle x1="59.935" y1="15.21" x2="60.665" y2="15.49" layer="30"/>
+<text x="50.45" y="6.5" size="0.6096" layer="25" rot="R90">BATT</text>
+<text x="50.45" y="8.6" size="0.6096" layer="26" rot="MR270">BATT</text>
 </plain>
 <libraries>
 <library name="core51822b">
@@ -264,10 +266,10 @@ CLK</text>
 <library name="prog_header">
 <packages>
 <package name="PROG_HEADER">
-<pad name="VCC" x="0" y="0" drill="1" shape="square" stop="no"/>
-<pad name="GND" x="0" y="-2.54" drill="1" stop="no"/>
-<pad name="SWDIO" x="0" y="-5.08" drill="1" stop="no"/>
-<pad name="SWCLK" x="0" y="-7.62" drill="1" stop="no"/>
+<pad name="VCC" x="0" y="0" drill="1" shape="square"/>
+<pad name="GND" x="0" y="-2.54" drill="1"/>
+<pad name="SWDIO" x="0" y="-5.08" drill="1"/>
+<pad name="SWCLK" x="0" y="-7.62" drill="1"/>
 </package>
 </packages>
 </library>

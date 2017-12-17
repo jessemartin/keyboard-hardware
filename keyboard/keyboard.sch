@@ -357,10 +357,10 @@ CLVBA-FKA</description>
 <library name="prog_header">
 <packages>
 <package name="PROG_HEADER">
-<pad name="VCC" x="0" y="0" drill="1" shape="square" stop="no"/>
-<pad name="GND" x="0" y="-2.54" drill="1" stop="no"/>
-<pad name="SWDIO" x="0" y="-5.08" drill="1" stop="no"/>
-<pad name="SWCLK" x="0" y="-7.62" drill="1" stop="no"/>
+<pad name="VCC" x="0" y="0" drill="1" shape="square"/>
+<pad name="GND" x="0" y="-2.54" drill="1"/>
+<pad name="SWDIO" x="0" y="-5.08" drill="1"/>
+<pad name="SWCLK" x="0" y="-7.62" drill="1"/>
 </package>
 </packages>
 <symbols>
