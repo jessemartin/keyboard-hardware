@@ -33,9 +33,7 @@ PCB Fab Specifications
 Keyboard PCBs
 -------------
 
-A single, reversible board is used for each keyboard half.
-
-The top of the board is used for the left half, and the bottom for the right half.
+A single, reversible board is used for each keyboard half. The top of the board is used for the left half, and the bottom for the right half:
 
 <img src="/img/board_top.png" height="600px" />
 <img src="/img/board_bottom.png" height="600px" />
