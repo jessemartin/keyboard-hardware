@@ -21,7 +21,7 @@ http://www.keyboard-layout-editor.com/#/gists/4d522280e8e3315902466de2c982f663
 Folder Structure
 ----------------
  - `3d` contains [SketchUp](https://app.sketchup.com/app) renderings of what the final product could look like. These are not dimensionally accurate.
- - `fab` contains design rules and CAM settings for [DirtyPCBs](https://dirtypcbs.com/store/pcbs).
+ - `fab` contains design rules and CAM settings for [DirtyPCBs](https://dirtypcbs.com/store/pcbs) and [OSH Park](https://oshpark.com/)
  - `lib` contains device libraries that are used by the `receiver` and `keyboard` projects.
 
 PCB Fab Specifications
