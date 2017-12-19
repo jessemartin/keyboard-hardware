@@ -482,7 +482,6 @@ CLVBA-FKA</description>
 <circle x="-1.8" y="-1.7" radius="0.1" width="0.2" layer="21"/>
 <text x="-3.3" y="3.9" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.4" y="2.3" size="1.27" layer="21">&gt;VALUE</text>
-<smd name="GND" x="0" y="-9.5" dx="8" dy="14" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -509,7 +508,7 @@ CLVBA-FKA</description>
 <device name="" package="MCP73831T">
 <connects>
 <connect gate="G$1" pin="1-STAT" pad="1-STAT"/>
-<connect gate="G$1" pin="2-VSS" pad="2-VSS GND"/>
+<connect gate="G$1" pin="2-VSS" pad="2-VSS"/>
 <connect gate="G$1" pin="3-VBAT" pad="3-VBAT"/>
 <connect gate="G$1" pin="4-VDD" pad="4VDD"/>
 <connect gate="G$1" pin="5-PROG" pad="5-PROG"/>
