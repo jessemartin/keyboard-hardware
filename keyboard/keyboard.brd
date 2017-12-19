@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2628,6 +2628,27 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="41.15" y1="54.95" x2="41.135" y2="53.305" width="0.1524" layer="1"/>
 <contactref element="U$6" pad="P30"/>
 <wire x1="41.135" y1="53.305" x2="41.15" y2="54.95" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$1">
+<via x="9.5" y="42.25" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$2">
+<via x="93" y="42.25" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$3">
+<via x="9.5" y="103.5" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$4">
+<via x="85.5" y="103.5" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$5">
+<via x="47.5" y="113" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$6">
+<via x="9.5" y="19" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$7">
+<via x="90" y="20" extent="1-16" drill="1.5875"/>
 </signal>
 </signals>
 </board>
