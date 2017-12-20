@@ -179,7 +179,6 @@
 <wire x1="74.5" y1="127.25" x2="76" y2="125.75" width="0.1524" layer="20" curve="-90"/>
 <text x="84.9" y="2.1" size="2.54" layer="29" font="vector">Jesse Martin</text>
 <text x="104.2" y="2.1" size="2.54" layer="30" font="vector" rot="MR0">Jesse Martin</text>
-<circle x="33.9" y="18.3" radius="15.5" width="0.1524" layer="20"/>
 <text x="110.2" y="28.3" size="1.016" layer="21" distance="150">5V+
 GND
 DIO
@@ -214,6 +213,12 @@ CLK</text>
 <vertex x="64.1" y="5.3"/>
 <vertex x="56.5" y="5.3"/>
 </polygon>
+<wire x1="42.75" y1="2" x2="22.25" y2="2" width="0.1524" layer="20"/>
+<wire x1="22.25" y1="2" x2="22" y2="2.25" width="0.1524" layer="20" curve="-90"/>
+<wire x1="22" y1="2.25" x2="22" y2="8.1" width="0.1524" layer="20"/>
+<wire x1="42.75" y1="2" x2="43" y2="2.25" width="0.1524" layer="20" curve="90"/>
+<wire x1="43" y1="2.25" x2="43" y2="8.1" width="0.1524" layer="20"/>
+<wire x1="43" y1="8.1" x2="22" y2="8.1" width="0.1524" layer="20" curve="274.581369"/>
 </plain>
 <libraries>
 <library name="core51822b">
@@ -2649,6 +2654,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </signal>
 <signal name="N$7">
 <via x="90" y="20" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$8">
+<via x="32.5" y="37" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$9">
+<via x="20" y="7.5" extent="1-16" drill="1.5875"/>
+</signal>
+<signal name="N$10">
+<via x="45" y="7.5" extent="1-16" drill="1.5875"/>
 </signal>
 </signals>
 </board>
